@@ -24,7 +24,7 @@ Built with HTML5, CSS3 and JavaScript, bilingual (English by default and Latin A
 
 | Page | Content |
 |------|---------|
-| `index.html` | Hero, segment access, services, features, About-the-Product video, benefits, plans, about us, team, testimonials, FAQ, contact inquiry form and footer. |
+| `index.html` | Hero, segment access, services, features, About-the-Product video, benefits, plans, about us, team, testimonials, FAQ, final call to action and footer with contact details and social media. The Contact us form is in the Web Application (`/contact`). |
 | `terms.html` | Terms of Service. |
 | `privacy.html` | Privacy Policy (Law N.° 29733). |
 
@@ -40,7 +40,7 @@ public/assets/
 │   ├── config.js               # Web Application URL, video URLs and segment routes
 │   ├── i18n.js                 # I18nService: loads the JSON files and applies data-i18n
 │   ├── components/             # Language switcher, navbar, segment access, accordions,
-│   │                           # billing toggle, video players and contact inquiry
+│   │                           # billing toggle and video players
 │   ├── effects/                # Magnetic effect of the call-to-action buttons
 │   └── utils/                  # Safe access to localStorage and sessionStorage
 └── styles/
