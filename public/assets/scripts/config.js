@@ -20,11 +20,10 @@ export const VIDEO_URLS = {
   team: ''
 };
 
-/** Web Application routes opened by the sign-in link, the call to action buttons (US48) and the contact link of the footer (US04). */
+/** Web Application routes opened by the sign-in link and the call to action buttons (US48). */
 export const APP_ROUTES = {
   signin: '/sign-in',
   qa: '/sign-in/qa',
   production: '/sign-in/production',
-  register: '/register',
-  contact: '/contact'
+  register: '/register'
 };
