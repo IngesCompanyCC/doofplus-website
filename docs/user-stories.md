@@ -1,7 +1,7 @@
 # User Stories
 
 ## Overview
-This document presents the functional and technical requirement user stories for the **DoofPlus** Landing Page application (IngesCompany). The requirements are organized around the core business epic: **EP01 - Landing Page & Public Experience**.
+This document presents the functional and technical requirement user stories for the **DoofPlus** Landing Page application (IngesCompanyCC). The requirements are organized around the core business epic: **EP01 - Landing Page & Public Experience**.
 
 ## US01: Visualización de la propuesta de valor
 **Title:** Visualización de la propuesta de valor  
@@ -41,14 +41,14 @@ This document presents the functional and technical requirement user stories for
 
 ## US04: Formulario de contacto
 **Title:** Formulario de contacto  
-**Context:** EP01 - Landing Page & Public Experience  
+**Context:** EP01 - Website & Public Experience (formulario en la Web Application, junto al inicio de sesión; el Website muestra los canales de contacto en el footer)  
 **Description:**  
 *Como visitante interesado, quiero enviar una consulta al equipo de DoofPlus para resolver mis dudas sobre la plataforma y sus planes.*
 
 **Acceptance Criteria:**
 - **Scenario 1: Envío exitoso:** Dado que el visitante ingresa su nombre, un correo electrónico válido y su consulta, cuando envía el formulario, entonces el sistema registra la consulta y confirma su recepción al visitante.
 - **Scenario 2: Datos inválidos:** Dado que el visitante ingresa un correo con formato inválido o deja la consulta vacía, cuando intenta enviar el formulario, entonces la consulta no se registra y se informa el motivo del error.
-- **Scenario 3: Visualización de canales de contacto y redes sociales:** Dado que el visitante accede a la sección de contacto o al footer, cuando revisa la información, entonces visualiza canales directos de contacto (correo, teléfono, sede principal y horario) y acceso a las cuentas de redes sociales de DoofPlus.
+- **Scenario 3: Visualización de canales de contacto y redes sociales:** Dado que el visitante accede al footer del Website, cuando revisa la información, entonces visualiza canales directos de contacto (correo, teléfono, sede principal y horario) y acceso a las cuentas de redes sociales de DoofPlus.
 
 ---
 
@@ -80,11 +80,11 @@ This document presents the functional and technical requirement user stories for
 **Title:** Visualización del equipo y de la startup  
 **Context:** EP01 - Landing Page & Public Experience  
 **Description:**  
-*Como visitante, quiero conocer a IngesCompany y a su equipo para generar confianza en la solución.*
+*Como visitante, quiero conocer a IngesCompanyCC y a su equipo para generar confianza en la solución.*
 
 **Acceptance Criteria:**
 - **Scenario 1: Consulta del equipo:** Dado que el visitante accede a la sección About Us, cuando se muestra el equipo, entonces visualiza la foto, el nombre, el rol y la descripción de cada integrante.
-- **Scenario 2: Consulta de la startup:** Dado que el visitante revisa la sección About Us, cuando la sección se muestra, entonces visualiza la descripción de IngesCompany y los pilares del servicio.
+- **Scenario 2: Consulta de la startup:** Dado que el visitante revisa la sección About Us, cuando la sección se muestra, entonces visualiza la descripción de IngesCompanyCC y los pilares del servicio.
 
 ---
 
@@ -121,7 +121,6 @@ This document presents the functional and technical requirement user stories for
 **Acceptance Criteria:**
 - **Scenario 1: Acceso del segmento QA/QC:** Dado que el visitante pertenece al segmento QA/QC, cuando elige acceder a la Web Application como especialista QA/QC, entonces es dirigido al inicio de sesión del entorno de calidad de la Web Application.
 - **Scenario 2: Acceso del segmento Producción:** Dado que el visitante pertenece al segmento Producción, cuando elige acceder a la Web Application como jefe de producción, entonces es dirigido al inicio de sesión del entorno de producción de la Web Application.
-- **Scenario 3: Acceso a través de Call-to-Action final antes del footer:** Dado que el visitante llega al final del contenido de la Landing Page, antes del footer, entonces visualiza una sección destacada con llamado a la acción (Call to Action) para acceder directamente a la Web Application desplegada y registrar su laboratorio.
 
 ---
 
