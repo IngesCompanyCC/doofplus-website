@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0] - 2026-11-15
+### Added
+- About-the-Product and About-the-Team videos in their players (US49).
+
 ## [1.0.0] - 2026-10-09
 ### Added
 - Hero section and navigation with anchor links to every section.
