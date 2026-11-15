@@ -16,8 +16,8 @@ export const WEB_APP_URL = IS_LOCAL ? 'http://localhost:5173' : 'https://ingesco
  * Paste each URL when the video is published on YouTube.
  */
 export const VIDEO_URLS = {
-  product: '',
-  team: ''
+  product: 'https://www.youtube.com/embed/m5nkEdCl6PY',
+  team: 'https://www.youtube.com/embed/pE0AvoDX4XY'
 };
 
 /** Web Application routes opened by the sign-in link and the call to action buttons (US48). */
